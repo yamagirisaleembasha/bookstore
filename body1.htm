@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.button {
+	  			background-color: green;
+	  			border: none;
+	  			color: white;
+	  			padding: 15px 32px;
+	  			text-align: center;
+	  			text-decoration: none;
+	  			font-size: 16px;
+	  			margin: 4px 2px;
+			}
+			.buttonsmall{
+	  			text-align: center;
+	  			text-decoration: none;
+	  			font-size: 16px;
+	  			<!--margin: 4px 2px;-->
+	  			display: inline-block;
+			}
+			.image{
+				<!--padding-left: 25px;
+				padding-right: 15px;-->
+	  			display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+			<h3>book catlog:</h3>
+			<div class="image"> 
+				<img  src="ctb.png" width="80px">
+				<div class="buttonsmall">
+					<form>
+						<a href="buy.htm" target="_parent"><input type="button" value="buy" ></a>
+						<a href="viewcart.htm" target="empty"><input type="button" value="add to cart"></a>
+					</form>
+				</div> 
+			</div>
+			<div class="image">
+				<img  src="pptb.png" width="80px">
+				<div class="buttonsmall">
+					<form>
+						<a href="buy.htm" target="_parent"><input type="button" value="buy" ></a>
+						<a href="viewcart.htm" target="empty"><input type="button" value="add to cart"></a>
+					</form>
+				</div> 
+			</div>
+			<form>
+				<a href="orders.htm" target="empty"><input type="button" value="your orders" class="button"></a>
+			</form>
+		</center>
+	</body>
+</html>
